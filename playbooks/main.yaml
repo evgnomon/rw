@@ -28,4 +28,4 @@
   roles:
     - role: z_pod
       vars:
-        public_port: 127.0.0.1:8081
+        public_port: 127.0.0.1:3001
