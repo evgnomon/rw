@@ -39,7 +39,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/evgnomon/rw/tree/main/docs",
+          editUrl: "https://github.com/evgnomon/rw/tree/main",
         },
         blog: {
           showReadingTime: true,
@@ -47,7 +47,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: "https://github.com/evgnomon/rw/tree/main/blog",
+          editUrl: "https://github.com/evgnomon/rw/tree/main",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
