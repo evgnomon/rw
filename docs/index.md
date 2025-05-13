@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Why Zygote?
+title: Zygote
 ---
 > Didn't we expanded your inner self, for you?
 > Relieved you of the burden.
@@ -46,7 +46,7 @@ The web application and non-web processes are unaware of nodes (machines), the k
 
 Anything that lets you run and monitor a web application on your machine is provided by Zygote’s built-in tools. If a kernel can support a web application, it can also support any non-web process exposing the system interface to the web. This includes any type of process running on your machine, regardless of the programming language or operating system (Linux, FreeBSD, Windows, etc.). From Zygote’s perspective, everything is a library provided to `zcore`, Zygote’s kernel, including hardware interfaces or accelerators. We build on top of Zygote and go as far as Zygote takes us in the ocean of unknown for the unknown.
 
-If one kernel goes down, the other kernels continue running. Functionalities belong to the kernel, and any hardware or underlying driver can be upgraded by adding a new one and removing the old one. And we keep those forever if no upgrade is needed! Zygote is aware of sharding and replication status of user tables and a key-value store in a distributed memory cluster. Theis provides both quick and permanent memory for your web application.
+If one kernel goes down, the other kernels continue running. Functionalities belong to the kernel, and any hardware or underlying driver can be upgraded by adding a new one and removing the old one. And we keep those forever if no upgrade is needed! Zygote is aware of sharding and replication status of user tables and a key-value store in a distributed memory cluster. Theis/This provides both quick and permanent memory for your web application.
 
 The only thing left for you is to leverage Zygote’s system interface on the web, create Zygote interface for the web, and build a digitally ever-modifiable civilization without any limits! Use your enemy’s time to produce maximum thrust forward! Construct the spaceship while flying!
 

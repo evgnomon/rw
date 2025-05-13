@@ -9,13 +9,13 @@ The following table compares Azure services with Zygote features. It is not a co
 
 | Azure Service/Category | What is that? | What Zygote Offers instead? |
 |-----------------------|-----------------------------|-------|
-| Azure Virtual Machines | Like a computer you can use on the internet. | Use your laptop, and rent VMs/Metal from your local provider and your friends|
-| Azure Virtual Desktop | A desk and apps you can use on any computer. | Buy a laptop! Set it up with `x`! |
-| Azure DevOps | Helps people work together to make apps. | Use Yacht, Run the same pipeline locally and/or remotely |
-| Azure SQL | A place to store and organize lots of information. | Use `z q` and/or `z c` |
+| Azure Virtual Machines | Like a computer you can use on the internet. | Use your laptop, and rent VMs/Metal from your local provider and your friends. SSH is the only thing needed for integration. |
+| Azure Virtual Desktop | A desk and apps you can use on any computer. | Buy a laptop! Set it up with `z x`! Linux/MacOS and Windows (with WSL2) are supported on your Laptop. |
+| Azure DevOps | Helps people work together to make apps. | Use `z y` to run repo pipelines locally and/or remotely. Z Yacht runs your local pipeline in Github Actions, for free!|
+| Azure SQL | A place to store and organize lots of information. | Use `z q` for SQL IO. |
 | Azure AI Services | Makes computers smart to understand things. | Package your ML functions in a container and deploy using `z_pod`. Use `z q` and/or `z c` for IO|
 | Azure AI Foundry | A tool to build smart computer programs. | Use Python/Poetry to develop and test AI apps on your laptop and deploy using `z_pod` role and `Yacht` |
-| Azure AI Content Safety | Keeps bad stuff away from apps and games. | Is it needed? |
+| Azure AI Content Safety | Keeps bad stuff away from apps and games. | Content is not safe! Unless produced by yourself and your network! Otherwise you only keep the most essential stuff away! |
 | Azure Kubernetes Service (AKS) | Manages lots of app pieces working together. | Use `z_pod` over SSH |
 | Azure Arc | Connects different computers to work as one. | Zygote is one. `zcore` runs anywhere! |
 | Azure Local | Runs internet tools on your own computer. | `zcore` runs locally and/or remotely! |
